@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px; /* Add some padding at the top */
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns to the left */
+    margin-bottom: 20px;
+    padding-right: 200px; /* Adjust as needed for spacing */
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+
+
+h1 {
+    font-size: 1.3em; /* Adjusted font size */
+    margin-bottom: 30px; /* Increased margin */
+    text-align: center; /* Center the heading */
+    color: #222; /* Darker text color */
+    font-weight: normal; /* Make the font weight normal */
+}
+
+.google-button, .email-button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 7px; /* Slightly more rounded */
+    cursor: pointer;
+    text-align: center;
+    width: 280px; /* Wider buttons */
+    box-sizing: border-box;
+    font-size: 1em; /* Adjust font size for buttons */
+}
+
+.google-button {
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Subtle shadow */
+}
+
+.google-button img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.email-button {
+    background-color: #1a1a1a; /* Closer to Figma black */
+    color: #fff;
+    border: none;
+}
+
+.or {
+    margin: 20px 0; /* Increased margin */
+    color: #888; /* Light gray color */
+}
+
+input[type="email"] {
+    padding: 12px; /* Increased padding */
+    margin-bottom: 15px; /* Increased margin */
+    border: 1px solid #ccc;
+    border-radius: 7px; /* Slightly more rounded */
+    width: 280px; /* Wider input */
+    box-sizing: border-box;
+    font-size: 1em; /* Adjust font size for input */
+    color: #555; /* Darker input text */
+}
+
+input[type="email"]::placeholder {
+    color: #bbb;
+}
